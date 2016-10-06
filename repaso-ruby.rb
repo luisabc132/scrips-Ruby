@@ -39,8 +39,82 @@
 #IO.write('name.txt', nombre)
 #IO.write("name.txt", nombre
 
-unescaped_string = 'This is Sharon’s unescaped string'
-escaped_string = "This is Sharon\’s escaped string"
+#unescaped_string = 'This is Sharon’s unescaped string'
+#escaped_string = "This is Sharon\’s escaped string"
+
+#def saluda (nombre)
+#	puts "hola buenos días #{nombre}"
+#end 
+
+#saluda ("luis")
+
+#def suma (a, b)
+#	resultado = a + b
+#	puts resultado
+#end
+#suma (10), (200)
+
+#def taste(food)
+#	if food == "bacon"
+#		puts "arrrgggg"
+#	else
+#		puts "douch!!!!"
+#	end
+#end
+#taste("bacon")
+=begin
+	
+rescue Exception => e
+	
+end
+def square(number)
+  puts number * number
+end
+
+puts(square(4))
+
+def multiply(a, b)
+  a * b
+end
+
+multiply 2, 8
+
+
+puts multiply(4, 2)
+def add(a, b)
+   a + a
+   a + b
+  return b + b
+end
+puts add(1,  3)
+
+
+def add(a, b)
+  calc1 = a + a
+  calc2 = a + b
+  calc3 = b + b
+  return calc1, calc2, calc3
+end
+
+puts add(2, 4)
+
+=end
+
+def raiz(num)
+  sqr_num = num * num
+  if sqr_num > 100
+    return "Number too big!!"
+  end
+  
+  sqr_num
+
+end
+
+raiz(10)
+
+
+
+
 
 
 

@@ -6,15 +6,15 @@ def solve_cipher(input,desp)
   if desp == 0
     puts "nada que hacer" 
   else    
-  if desp > 0
-    vector.each {|x| enteros << x.ord+desp }
-    w = 32 + desp  
-  end
+  #if desp > 0
+   # vector.each {|x| enteros << x.ord+desp }
+    #w = 32 + desp  
+  #end
 
-  if desp < 0
+  #if desp < 0
     vector.each {|x| enteros << x.ord+desp }
     w = 32 + desp
-  end   
+  #end   
 
   t = enteros.length 
 
